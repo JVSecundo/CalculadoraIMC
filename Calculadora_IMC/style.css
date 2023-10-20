@@ -1,0 +1,107 @@
+@media screen and (max-width: 450px) {
+  /* Adicione estilos específicos para telas menores que 450px aqui */
+  body {
+      font-size: 14px; /* Exemplo: Reduzindo o tamanho da fonte */
+      text-align: justify;
+  }
+  
+}
+
+/* Entre 769px e 1000px */
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+  /* Adicione estilos específicos para telas entre 769px e 1000px aqui */
+  body {
+      font-size: 16px; /* Exemplo: Ajustando o tamanho da fonte */
+      text-align: justify;
+  }
+  
+}
+
+/* Maior que 1000px */
+@media screen and (min-width: 1001px) {
+  /* Adicione estilos específicos para telas maiores que 1000px aqui */
+  body {
+      font-size: 18px; /* Exemplo: Ajustando o tamanho da fonte */
+      text-align: justify;
+  }
+
+}
+
+input{
+     
+    border-radius: 8px;
+}
+
+button {
+    
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(141, 139, 139); 
+    border: none;
+    padding: 4px 9px;
+    border-radius: 20px; 
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botao-redefinir {
+
+    margin-top: -9px;
+    padding: 4px 21px;
+    
+}
+
+input::placeholder{
+
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+   
+    font-size: small;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.resultado {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.resultado.peso-normal {
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.resultado.sobrepeso {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.resultado.obesidade-grau-1 {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.resultado.obesidade-grau-2 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.resultado.obesidade-grau-3 {
+
+    font-family:'Times New Roman', Times, serif;
+}
+
+input:focus {
+    border: 9px solid rgb(141, 139, 139);
+}
+
+h1 {
+    
+    padding: 4px 100px;
+    font-size: x-large;
+    border-radius: 20px;
+    background-color: rgb(141, 139, 139);
+}
+
+
+
+ 
+
+
+ 
